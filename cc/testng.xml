@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="chrometest">
+
+		<parameter name="BrowserName" value="chrome" />
+		<classes>
+			<class name="cc1.cc2" />
+		</classes>
+	</test> <!-- ctest1 -->
+
+	<test name="firfoxtest">
+
+		<parameter name="BrowserName" value="firefox" />
+		<classes>
+			<class name="cc1.cc2" />
+		</classes>
+	</test> <!-- ctest1 -->
+</suite> <!-- Suite -->
